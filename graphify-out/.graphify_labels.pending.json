@@ -7,11 +7,12 @@
   "5": "Hero.tsx",
   "6": "react",
   "7": "index.ts",
-  "8": "lucide-react",
+  "8": "KolamDivider.tsx",
   "9": "Language",
   "10": "CurriculumExplorer.tsx",
   "11": "TamilAudioSampler.tsx",
   "12": "VisitUs.tsx",
-  "13": "RegistrationForm.tsx",
-  "14": "AGENTS.md"
+  "13": "postcss.config.mjs",
+  "14": "AGENTS.md",
+  "15": "Pricing.tsx"
 }
