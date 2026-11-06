@@ -1,26 +1,100 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-brand-maroon: #7a1b28;
+  --color-brand-maroon-dark: #58101a;
+  --color-brand-maroon-light: #942536;
+  --color-brand-gold: #d97706;
+  --color-brand-gold-light: #f59e0b;
+  --color-brand-cream: #fffdf7;
+  --color-brand-cream-card: #fbf7ee;
+  --color-brand-green: #15803d;
+
+  --bg-primary: #fffdf7;
+  --bg-secondary: #fbf6ec;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #fbf7ef;
+  --border-subtle: #ebdcc9;
+  --border-strong: #d4bc9f;
+  
+  --text-primary: #2d1318;
+  --text-secondary: #5e4349;
+  --text-muted: #82686f;
+  --text-maroon: #7a1b28;
+  --text-gold: #b45309;
+
+  --kolam-color: rgba(122, 27, 40, 0.08);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dark {
+  --bg-primary: #120508;
+  --bg-secondary: #1d0a0f;
+  --bg-card: #250d14;
+  --bg-card-subtle: #2e1119;
+  --border-subtle: #451b24;
+  --border-strong: #612734;
+
+  --text-primary: #fcf6ee;
+  --text-secondary: #d4b8be;
+  --text-muted: #9e858b;
+  --text-maroon: #f87171;
+  --text-gold: #fbbf24;
+
+  --kolam-color: rgba(245, 158, 11, 0.09);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tamil Typography Enhancement: prevent letter clipping and allow proper breathing room for matras */
+.font-tamil,
+[lang="ta"],
+.tamil-text {
+  line-height: 1.72 !important;
+  letter-spacing: 0.015em;
+  font-family: var(--font-tamil), var(--font-mukta), system-ui, sans-serif;
+}
+
+/* Subtle Kolam Background Pattern */
+.bg-kolam-pattern {
+  background-image: radial-gradient(var(--kolam-color) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Custom refined scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: #d4bc9f;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #52202a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a1b28;
+}
+
+/* Soft shimmer animation for trust badge */
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3s infinite ease-in-out;
 }
