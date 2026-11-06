@@ -4,15 +4,14 @@
   "2": "package.json",
   "3": "Nayali Tamil Academy — Premium Demo Website",
   "4": "layout.tsx",
-  "5": "dependencies",
+  "5": "Hero.tsx",
   "6": "react",
   "7": "index.ts",
-  "8": "Language",
-  "9": "lucide-react",
-  "10": "eslint.config.mjs",
-  "11": "scripts",
+  "8": "lucide-react",
+  "9": "Language",
+  "10": "CurriculumExplorer.tsx",
+  "11": "TamilAudioSampler.tsx",
   "12": "VisitUs.tsx",
   "13": "RegistrationForm.tsx",
-  "14": "AGENTS.md",
-  "15": "TeacherCard.tsx"
+  "14": "AGENTS.md"
 }

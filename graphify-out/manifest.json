@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "src/app/page.tsx": {
-    "mtime": 1793953837.4690385,
-    "seen": 1793953912.0056176,
-    "ast_hash": "085c6c52e2e1cfa63d93a0780c9ca468",
+    "mtime": 1793956419.6126149,
+    "seen": 1793956507.1833398,
+    "ast_hash": "4180b941fdad7ea4e08a439e723c4e45",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -96,9 +96,9 @@
     "semantic_hash": ""
   },
   "src/components/FloatingWhatsApp.tsx": {
-    "mtime": 1793953826.3781252,
-    "seen": 1793953912.0056384,
-    "ast_hash": "bf14b2a34415d65bdb219da7604f9ce2",
+    "mtime": 1793956344.5780654,
+    "seen": 1793956507.1833713,
+    "ast_hash": "3d30209a99329fbb8be80e7b37ccdeaf",
     "semantic_hash": ""
   },
   "src/components/Footer.tsx": {
@@ -108,9 +108,9 @@
     "semantic_hash": ""
   },
   "src/components/Hero.tsx": {
-    "mtime": 1793952263.9767606,
-    "seen": 1793953912.005645,
-    "ast_hash": "83c26540505f2976c93adaa45af51196",
+    "mtime": 1793956398.0003467,
+    "seen": 1793956507.1833787,
+    "ast_hash": "42ac9e2787728b2403139513625a745f",
     "semantic_hash": ""
   },
   "src/components/KolamDivider.tsx": {
@@ -126,9 +126,9 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.tsx": {
-    "mtime": 1793952245.198691,
-    "seen": 1793953912.005654,
-    "ast_hash": "a67dd7ba63770e38fc771fc440eb6eae",
+    "mtime": 1793956460.9903238,
+    "seen": 1793956507.1833932,
+    "ast_hash": "833dc7c5ef58b347c3a6d5097ce883d3",
     "semantic_hash": ""
   },
   "src/components/Offerings.tsx": {
@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   "src/components/Testimonials.tsx": {
-    "mtime": 1793953712.449232,
-    "seen": 1793953912.0056746,
-    "ast_hash": "089cd1e7fb3d2df4315c952a367b8c51",
+    "mtime": 1793956376.8351388,
+    "seen": 1793956507.1834207,
+    "ast_hash": "ae170fab9564c7328b746b2107677e52",
     "semantic_hash": ""
   },
   "src/components/VisitUs.tsx": {
@@ -186,15 +186,45 @@
     "semantic_hash": ""
   },
   "src/types/index.ts": {
-    "mtime": 1793951999.0157888,
-    "seen": 1793953912.0056865,
-    "ast_hash": "21f1088e073b8a977998f06c8e5f378a",
+    "mtime": 1793956219.926203,
+    "seen": 1793956507.183434,
+    "ast_hash": "d94541e83ce95bac55820d1f82c0f69f",
     "semantic_hash": ""
   },
   "AGENTS.md": {
     "mtime": 1793951900.2958775,
     "seen": 1793953912.0056965,
     "ast_hash": "c98dbebb744eadc1acc4b9f58bfe0f42",
+    "semantic_hash": ""
+  },
+  "src/components/BatchCountdown.tsx": {
+    "mtime": 1793956235.6178007,
+    "seen": 1793956507.183351,
+    "ast_hash": "896a6f381bb48bffef9c877e69242da7",
+    "semantic_hash": ""
+  },
+  "src/components/CurriculumExplorer.tsx": {
+    "mtime": 1793956314.262853,
+    "seen": 1793956507.1833549,
+    "ast_hash": "d68a6512c13004a1a2e4beb4648ad546",
+    "semantic_hash": ""
+  },
+  "src/components/MobileBottomBar.tsx": {
+    "mtime": 1793956331.387926,
+    "seen": 1793956507.18339,
+    "ast_hash": "0eb08fe1231abde6520d734fe78469ab",
+    "semantic_hash": ""
+  },
+  "src/components/StatsCounter.tsx": {
+    "mtime": 1793956247.5231278,
+    "seen": 1793956507.183411,
+    "ast_hash": "57a75d1d04a7f4db17d290b541067809",
+    "semantic_hash": ""
+  },
+  "src/components/TamilAudioSampler.tsx": {
+    "mtime": 1793956275.497367,
+    "seen": 1793956507.183414,
+    "ast_hash": "0dc4ea1e5f91f4cbccf0d20cfeb77809",
     "semantic_hash": ""
   },
   "package-lock.json": {
