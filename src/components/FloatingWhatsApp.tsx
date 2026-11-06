@@ -28,7 +28,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ language }) 
   return (
     <aside
       aria-label="WhatsApp quick chat"
-      className="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-40 flex items-end gap-2.5"
+      className="hidden md:flex fixed bottom-6 right-6 z-40 items-end gap-2.5"
     >
       {/* Friendly Tooltip Bubble */}
       {showTooltip && (

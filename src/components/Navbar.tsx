@@ -61,11 +61,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="font-tamil">ந</span>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold text-base sm:text-lg tracking-tight text-[#7A1B28] dark:text-amber-400 leading-tight">
+            <span className="font-bold text-sm sm:text-base md:text-lg tracking-tight text-[#7A1B28] dark:text-amber-400 leading-tight">
               Nayali Tamil Academy
             </span>
-            <span className="text-[11px] sm:text-xs font-tamil text-[#6E4E54] dark:text-amber-200/70 font-medium">
-              நயலி தமிழ் பயிற்சி மையம் • பல்லாவரம்
+            <span className="text-[10px] sm:text-xs font-tamil text-[#6E4E54] dark:text-amber-200/70 font-medium">
+              நயலி தமிழ் மையம் • பல்லாவரம்
             </span>
           </div>
         </a>
@@ -132,10 +132,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="md:hidden">Call</span>
           </a>
 
-          {/* Primary Demo CTA button */}
+          {/* Primary Demo CTA button (shown on sm+; mobile has persistent bottom bar) */}
           <a
             href="#registration"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-amber-950 font-semibold px-3.5 sm:px-4 py-2 rounded-xl text-xs sm:text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+            className="hidden sm:inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-amber-950 font-semibold px-3.5 sm:px-4 py-2 rounded-xl text-xs sm:text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0"
           >
             <Sparkles className="w-3.5 h-3.5 text-amber-900" />
             <span>{t.demoCta}</span>

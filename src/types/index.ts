@@ -37,6 +37,12 @@ export interface Testimonial {
   rating: number;
   tagEn: string;
   tagTa: string;
+  audioStudent?: {
+    studentName: string;
+    sampleTextEn: string;
+    sampleTextTa: string;
+    duration: string;
+  };
 }
 
 export interface FaqItem {
@@ -56,4 +62,35 @@ export interface RegistrationFormData {
   preferredTime: 'morning' | 'evening' | 'weekend';
   phone: string;
   message: string;
+}
+
+export interface CurriculumTrack {
+  id: string;
+  badgeEn: string;
+  badgeTa: string;
+  titleEn: string;
+  titleTa: string;
+  descriptionEn: string;
+  descriptionTa: string;
+  durationEn: string;
+  durationTa: string;
+  modules: {
+    weekEn: string;
+    weekTa: string;
+    topicEn: string;
+    topicTa: string;
+    outcomeEn: string;
+    outcomeTa: string;
+  }[];
+}
+
+export interface TamilAudioWord {
+  id: string;
+  letter: string;
+  tamilWord: string;
+  englishTranslit: string;
+  meaningEn: string;
+  meaningTa: string;
+  category: 'vowel' | 'consonant' | 'daily';
+  audioFreq?: number; // Tone frequency for Web Audio fallback
 }

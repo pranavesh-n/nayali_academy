@@ -5,6 +5,7 @@ import { Star, MessageCircle, Phone, Sparkles, CheckCircle2, MapPin, Globe } fro
 import { Language } from '@/types';
 import { DICTIONARY, BUSINESS_INFO } from '@/lib/dictionary';
 import { KolamDivider } from './KolamDivider';
+import { BatchCountdown } from './BatchCountdown';
 
 interface HeroProps {
   language: Language;
@@ -71,7 +72,7 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
           </div>
 
           {/* Feature Highlights Pills */}
-          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-10 text-xs sm:text-sm font-medium text-[#502C33] dark:text-amber-200/90">
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-6 text-xs sm:text-sm font-medium text-[#502C33] dark:text-amber-200/90">
             {t.featureBadges.map((badge, idx) => (
               <span
                 key={idx}
@@ -82,6 +83,9 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
               </span>
             ))}
           </div>
+
+          {/* Real-Time Next Batch Countdown & Scarcity Ticker */}
+          <BatchCountdown language={language} />
 
           {/* Trust Strip Card */}
           <div className="max-w-2xl mx-auto rounded-3xl bg-white/90 dark:bg-[#220B11]/90 backdrop-blur-md p-5 sm:p-6 shadow-xl border border-[#ECD9C5] dark:border-[#481823]">
